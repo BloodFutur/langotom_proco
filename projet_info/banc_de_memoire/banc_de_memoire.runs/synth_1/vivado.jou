@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:04:56 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Tue Apr 30 12:11:32 2024
+# Process ID: 166377
+# Current directory: /home/rbonnet/Documents/4A/projet_info/banc_de_memoire/banc_de_memoire.runs/synth_1
+# Command line: vivado -log memoire_de_donnees.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source memoire_de_donnees.tcl
+# Log file: /home/rbonnet/Documents/4A/projet_info/banc_de_memoire/banc_de_memoire.runs/synth_1/memoire_de_donnees.vds
+# Journal file: /home/rbonnet/Documents/4A/projet_info/banc_de_memoire/banc_de_memoire.runs/synth_1/vivado.jou
+# Running On: insa-11278, OS: Linux, CPU Frequency: 4301.355 MHz, CPU Physical cores: 6, Host memory: 67238 MB
+#-----------------------------------------------------------
+source memoire_de_donnees.tcl -notrace

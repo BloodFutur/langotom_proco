@@ -1,0 +1,335 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.1 (lin64) Build 3865809 Sun May  7 15:04:56 MDT 2023
+| Date         : Tue Apr 30 12:13:27 2024
+| Host         : insa-11278 running 64-bit Linux Mint 21.1
+| Command      : report_control_sets -verbose -file memoire_de_donnees_control_sets_placed.rpt
+| Design       : memoire_de_donnees
+| Device       : xc7a35t
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |   257 |
+|    Minimum number of control sets                        |   257 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |     0 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |   257 |
+| >= 0 to < 4        |     0 |
+| >= 4 to < 6        |     0 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |   257 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     0 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               0 |            0 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |               8 |            8 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |            2048 |          697 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------+------------------------+------------------+------------------+----------------+--------------+
+|  Clock Signal  |      Enable Signal     | Set/Reset Signal | Slice Load Count | Bel Load Count | Bels / Slice |
++----------------+------------------------+------------------+------------------+----------------+--------------+
+|  Clk_IBUF_BUFG | Memory[179][7]_i_1_n_0 | p_0_in           |                3 |              8 |         2.67 |
+|  Clk_IBUF_BUFG | Memory[210][7]_i_1_n_0 | p_0_in           |                3 |              8 |         2.67 |
+|  Clk_IBUF_BUFG | Memory[200][7]_i_1_n_0 | p_0_in           |                3 |              8 |         2.67 |
+|  Clk_IBUF_BUFG | Memory[1][7]_i_1_n_0   | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[194][7]_i_1_n_0 | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[193][7]_i_1_n_0 | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[190][7]_i_1_n_0 | p_0_in           |                7 |              8 |         1.14 |
+|  Clk_IBUF_BUFG | Memory[187][7]_i_1_n_0 | p_0_in           |                4 |              8 |         2.00 |
+|  Clk_IBUF_BUFG | Memory[17][7]_i_1_n_0  | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[211][7]_i_1_n_0 | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[178][7]_i_1_n_0 | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[177][7]_i_1_n_0 | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[172][7]_i_1_n_0 | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[168][7]_i_1_n_0 | p_0_in           |                3 |              8 |         2.67 |
+|  Clk_IBUF_BUFG | Memory[133][7]_i_1_n_0 | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[132][7]_i_1_n_0 | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[131][7]_i_1_n_0 | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[130][7]_i_1_n_0 | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[214][7]_i_1_n_0 | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[21][7]_i_1_n_0  | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[220][7]_i_1_n_0 | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[222][7]_i_1_n_0 | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[223][7]_i_1_n_0 | p_0_in           |                8 |              8 |         1.00 |
+|  Clk_IBUF_BUFG | Memory[226][7]_i_1_n_0 | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[22][7]_i_1_n_0  | p_0_in           |                3 |              8 |         2.67 |
+|  Clk_IBUF_BUFG | Memory[230][7]_i_1_n_0 | p_0_in           |                4 |              8 |         2.00 |
+|  Clk_IBUF_BUFG | Memory[233][7]_i_1_n_0 | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[235][7]_i_1_n_0 | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[236][7]_i_1_n_0 | p_0_in           |                6 |              8 |         1.33 |
+|  Clk_IBUF_BUFG | Memory[239][7]_i_1_n_0 | p_0_in           |                4 |              8 |         2.00 |
+|  Clk_IBUF_BUFG | Memory[23][7]_i_1_n_0  | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[244][7]_i_1_n_0 | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[246][7]_i_1_n_0 | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[120][7]_i_1_n_0 | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[159][7]_i_1_n_0 | p_0_in           |                6 |              8 |         1.33 |
+|  Clk_IBUF_BUFG | Memory[15][7]_i_1_n_0  | p_0_in           |                3 |              8 |         2.67 |
+|  Clk_IBUF_BUFG | Memory[56][7]_i_1_n_0  | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[57][7]_i_1_n_0  | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[58][7]_i_1_n_0  | p_0_in           |                4 |              8 |         2.00 |
+|  Clk_IBUF_BUFG | Memory[59][7]_i_1_n_0  | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[5][7]_i_1_n_0   | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[97][7]_i_1_n_0  | p_0_in           |                3 |              8 |         2.67 |
+|  Clk_IBUF_BUFG | Memory[114][7]_i_1_n_0 | p_0_in           |                3 |              8 |         2.67 |
+|  Clk_IBUF_BUFG | Memory[115][7]_i_1_n_0 | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[116][7]_i_1_n_0 | p_0_in           |                3 |              8 |         2.67 |
+|  Clk_IBUF_BUFG | Memory[117][7]_i_1_n_0 | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[118][7]_i_1_n_0 | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[119][7]_i_1_n_0 | p_0_in           |                6 |              8 |         1.33 |
+|  Clk_IBUF_BUFG | Memory[11][7]_i_1_n_0  | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[247][7]_i_1_n_0 | p_0_in           |                4 |              8 |         2.00 |
+|  Clk_IBUF_BUFG | Memory[121][7]_i_1_n_0 | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[122][7]_i_1_n_0 | p_0_in           |                4 |              8 |         2.00 |
+|  Clk_IBUF_BUFG | Memory[164][7]_i_1_n_0 | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[165][7]_i_1_n_0 | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[183][7]_i_1_n_0 | p_0_in           |                3 |              8 |         2.67 |
+|  Clk_IBUF_BUFG | Memory[186][7]_i_1_n_0 | p_0_in           |                5 |              8 |         1.60 |
+|  Clk_IBUF_BUFG | Memory[250][7]_i_1_n_0 | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[123][7]_i_1_n_0 | p_0_in           |                4 |              8 |         2.00 |
+|  Clk_IBUF_BUFG | Memory[124][7]_i_1_n_0 | p_0_in           |                4 |              8 |         2.00 |
+|  Clk_IBUF_BUFG | Memory[125][7]_i_1_n_0 | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[126][7]_i_1_n_0 | p_0_in           |                7 |              8 |         1.14 |
+|  Clk_IBUF_BUFG | Memory[127][7]_i_1_n_0 | p_0_in           |                7 |              8 |         1.14 |
+|  Clk_IBUF_BUFG | Memory[128][7]_i_1_n_0 | p_0_in           |                3 |              8 |         2.67 |
+|  Clk_IBUF_BUFG | Memory[129][7]_i_1_n_0 | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[12][7]_i_1_n_0  | p_0_in           |                4 |              8 |         2.00 |
+|  Clk_IBUF_BUFG | Memory[162][7]_i_1_n_0 | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[227][7]_i_1_n_0 | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[228][7]_i_1_n_0 | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[229][7]_i_1_n_0 | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[249][7]_i_1_n_0 | p_0_in           |                4 |              8 |         2.00 |
+|  Clk_IBUF_BUFG | Memory[27][7]_i_1_n_0  | p_0_in           |                3 |              8 |         2.67 |
+|  Clk_IBUF_BUFG | Memory[142][7]_i_1_n_0 | p_0_in           |                6 |              8 |         1.33 |
+|  Clk_IBUF_BUFG | Memory[145][7]_i_1_n_0 | p_0_in           |                4 |              8 |         2.00 |
+|  Clk_IBUF_BUFG | Memory[144][7]_i_1_n_0 | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[143][7]_i_1_n_0 | p_0_in           |                6 |              8 |         1.33 |
+|  Clk_IBUF_BUFG | Memory[147][7]_i_1_n_0 | p_0_in           |                3 |              8 |         2.67 |
+|  Clk_IBUF_BUFG | Memory[148][7]_i_1_n_0 | p_0_in           |                3 |              8 |         2.67 |
+|  Clk_IBUF_BUFG | Memory[146][7]_i_1_n_0 | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[160][7]_i_1_n_0 | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[149][7]_i_1_n_0 | p_0_in           |                5 |              8 |         1.60 |
+|  Clk_IBUF_BUFG | Memory[161][7]_i_1_n_0 | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[206][7]_i_1_n_0 | p_0_in           |                6 |              8 |         1.33 |
+|  Clk_IBUF_BUFG | Memory[163][7]_i_1_n_0 | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[184][7]_i_1_n_0 | p_0_in           |                4 |              8 |         2.00 |
+|  Clk_IBUF_BUFG | Memory[10][7]_i_1_n_0  | p_0_in           |                5 |              8 |         1.60 |
+|  Clk_IBUF_BUFG | Memory[112][7]_i_1_n_0 | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[111][7]_i_1_n_0 | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[110][7]_i_1_n_0 | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[136][7]_i_1_n_0 | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[137][7]_i_1_n_0 | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[135][7]_i_1_n_0 | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[139][7]_i_1_n_0 | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[138][7]_i_1_n_0 | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[140][7]_i_1_n_0 | p_0_in           |                6 |              8 |         1.33 |
+|  Clk_IBUF_BUFG | Memory[141][7]_i_1_n_0 | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[13][7]_i_1_n_0  | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Output[7]_i_1_n_0      |                  |                8 |              8 |         1.00 |
+|  Clk_IBUF_BUFG | Memory[75][7]_i_1_n_0  | p_0_in           |                3 |              8 |         2.67 |
+|  Clk_IBUF_BUFG | Memory[88][7]_i_1_n_0  | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[92][7]_i_1_n_0  | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[47][7]_i_1_n_0  | p_0_in           |                7 |              8 |         1.14 |
+|  Clk_IBUF_BUFG | Memory[61][7]_i_1_n_0  | p_0_in           |                5 |              8 |         1.60 |
+|  Clk_IBUF_BUFG | Memory[67][7]_i_1_n_0  | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[68][7]_i_1_n_0  | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[60][7]_i_1_n_0  | p_0_in           |                4 |              8 |         2.00 |
+|  Clk_IBUF_BUFG | Memory[51][7]_i_1_n_0  | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[70][7]_i_1_n_0  | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[6][7]_i_1_n_0   | p_0_in           |                4 |              8 |         2.00 |
+|  Clk_IBUF_BUFG | Memory[69][7]_i_1_n_0  | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[74][7]_i_1_n_0  | p_0_in           |                4 |              8 |         2.00 |
+|  Clk_IBUF_BUFG | Memory[71][7]_i_1_n_0  | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[76][7]_i_1_n_0  | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[94][7]_i_1_n_0  | p_0_in           |                7 |              8 |         1.14 |
+|  Clk_IBUF_BUFG | Memory[134][7]_i_1_n_0 | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[28][7]_i_1_n_0  | p_0_in           |                4 |              8 |         2.00 |
+|  Clk_IBUF_BUFG | Memory[29][7]_i_1_n_0  | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[2][7]_i_1_n_0   | p_0_in           |                5 |              8 |         1.60 |
+|  Clk_IBUF_BUFG | Memory[30][7]_i_1_n_0  | p_0_in           |                4 |              8 |         2.00 |
+|  Clk_IBUF_BUFG | Memory[31][7]_i_1_n_0  | p_0_in           |                7 |              8 |         1.14 |
+|  Clk_IBUF_BUFG | Memory[35][7]_i_1_n_0  | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[38][7]_i_1_n_0  | p_0_in           |                3 |              8 |         2.67 |
+|  Clk_IBUF_BUFG | Memory[37][7]_i_1_n_0  | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[36][7]_i_1_n_0  | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[46][7]_i_1_n_0  | p_0_in           |                5 |              8 |         1.60 |
+|  Clk_IBUF_BUFG | Memory[39][7]_i_1_n_0  | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[185][7]_i_1_n_0 | p_0_in           |                4 |              8 |         2.00 |
+|  Clk_IBUF_BUFG | Memory[203][7]_i_1_n_0 | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[204][7]_i_1_n_0 | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[205][7]_i_1_n_0 | p_0_in           |                5 |              8 |         1.60 |
+|  Clk_IBUF_BUFG | Memory[219][7]_i_1_n_0 | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[157][7]_i_1_n_0 | p_0_in           |                3 |              8 |         2.67 |
+|  Clk_IBUF_BUFG | Memory[158][7]_i_1_n_0 | p_0_in           |                4 |              8 |         2.00 |
+|  Clk_IBUF_BUFG | Memory[176][7]_i_1_n_0 | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[180][7]_i_1_n_0 | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[181][7]_i_1_n_0 | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[182][7]_i_1_n_0 | p_0_in           |                3 |              8 |         2.67 |
+|  Clk_IBUF_BUFG | Memory[18][7]_i_1_n_0  | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[197][7]_i_1_n_0 | p_0_in           |                5 |              8 |         1.60 |
+|  Clk_IBUF_BUFG | Memory[198][7]_i_1_n_0 | p_0_in           |                3 |              8 |         2.67 |
+|  Clk_IBUF_BUFG | Memory[199][7]_i_1_n_0 | p_0_in           |                3 |              8 |         2.67 |
+|  Clk_IBUF_BUFG | Memory[19][7]_i_1_n_0  | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[201][7]_i_1_n_0 | p_0_in           |                4 |              8 |         2.00 |
+|  Clk_IBUF_BUFG | Memory[202][7]_i_1_n_0 | p_0_in           |                4 |              8 |         2.00 |
+|  Clk_IBUF_BUFG | Memory[209][7]_i_1_n_0 | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[20][7]_i_1_n_0  | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[108][7]_i_1_n_0 | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[221][7]_i_1_n_0 | p_0_in           |                4 |              8 |         2.00 |
+|  Clk_IBUF_BUFG | Memory[224][7]_i_1_n_0 | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[225][7]_i_1_n_0 | p_0_in           |                3 |              8 |         2.67 |
+|  Clk_IBUF_BUFG | Memory[231][7]_i_1_n_0 | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[232][7]_i_1_n_0 | p_0_in           |                5 |              8 |         1.60 |
+|  Clk_IBUF_BUFG | Memory[234][7]_i_1_n_0 | p_0_in           |                3 |              8 |         2.67 |
+|  Clk_IBUF_BUFG | Memory[237][7]_i_1_n_0 | p_0_in           |                3 |              8 |         2.67 |
+|  Clk_IBUF_BUFG | Memory[238][7]_i_1_n_0 | p_0_in           |                3 |              8 |         2.67 |
+|  Clk_IBUF_BUFG | Memory[240][7]_i_1_n_0 | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[241][7]_i_1_n_0 | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[242][7]_i_1_n_0 | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[243][7]_i_1_n_0 | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[245][7]_i_1_n_0 | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[248][7]_i_1_n_0 | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[14][7]_i_1_n_0  | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[7][7]_i_1_n_0   | p_0_in           |                3 |              8 |         2.67 |
+|  Clk_IBUF_BUFG | Memory[48][7]_i_1_n_0  | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[49][7]_i_1_n_0  | p_0_in           |                3 |              8 |         2.67 |
+|  Clk_IBUF_BUFG | Memory[4][7]_i_1_n_0   | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[52][7]_i_1_n_0  | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[53][7]_i_1_n_0  | p_0_in           |                3 |              8 |         2.67 |
+|  Clk_IBUF_BUFG | Memory[62][7]_i_1_n_0  | p_0_in           |                5 |              8 |         1.60 |
+|  Clk_IBUF_BUFG | Memory[63][7]_i_1_n_0  | p_0_in           |                5 |              8 |         1.60 |
+|  Clk_IBUF_BUFG | Memory[64][7]_i_1_n_0  | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[65][7]_i_1_n_0  | p_0_in           |                3 |              8 |         2.67 |
+|  Clk_IBUF_BUFG | Memory[66][7]_i_1_n_0  | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[72][7]_i_1_n_0  | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[73][7]_i_1_n_0  | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[77][7]_i_1_n_0  | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[78][7]_i_1_n_0  | p_0_in           |                6 |              8 |         1.33 |
+|  Clk_IBUF_BUFG | Memory[79][7]_i_1_n_0  | p_0_in           |                8 |              8 |         1.00 |
+|  Clk_IBUF_BUFG | Memory[32][7]_i_1_n_0  | p_0_in           |                3 |              8 |         2.67 |
+|  Clk_IBUF_BUFG | Memory[80][7]_i_1_n_0  | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[81][7]_i_1_n_0  | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[82][7]_i_1_n_0  | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[83][7]_i_1_n_0  | p_0_in           |                3 |              8 |         2.67 |
+|  Clk_IBUF_BUFG | Memory[84][7]_i_1_n_0  | p_0_in           |                3 |              8 |         2.67 |
+|  Clk_IBUF_BUFG | Memory[86][7]_i_1_n_0  | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[93][7]_i_1_n_0  | p_0_in           |                4 |              8 |         2.00 |
+|  Clk_IBUF_BUFG | Memory[95][7]_i_1_n_0  | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[96][7]_i_1_n_0  | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[0][7]_i_1_n_0   | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[101][7]_i_1_n_0 | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[102][7]_i_1_n_0 | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[103][7]_i_1_n_0 | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[106][7]_i_1_n_0 | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[107][7]_i_1_n_0 | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[34][7]_i_1_n_0  | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[166][7]_i_1_n_0 | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[167][7]_i_1_n_0 | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[170][7]_i_1_n_0 | p_0_in           |                3 |              8 |         2.67 |
+|  Clk_IBUF_BUFG | Memory[171][7]_i_1_n_0 | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[174][7]_i_1_n_0 | p_0_in           |                4 |              8 |         2.00 |
+|  Clk_IBUF_BUFG | Memory[175][7]_i_1_n_0 | p_0_in           |                8 |              8 |         1.00 |
+|  Clk_IBUF_BUFG | Memory[189][7]_i_1_n_0 | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[195][7]_i_1_n_0 | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[196][7]_i_1_n_0 | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[207][7]_i_1_n_0 | p_0_in           |                8 |              8 |         1.00 |
+|  Clk_IBUF_BUFG | Memory[208][7]_i_1_n_0 | p_0_in           |                7 |              8 |         1.14 |
+|  Clk_IBUF_BUFG | Memory[215][7]_i_1_n_0 | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[216][7]_i_1_n_0 | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[109][7]_i_1_n_0 | p_0_in           |                5 |              8 |         1.60 |
+|  Clk_IBUF_BUFG | Memory[113][7]_i_1_n_0 | p_0_in           |                3 |              8 |         2.67 |
+|  Clk_IBUF_BUFG | Memory[156][7]_i_1_n_0 | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[3][7]_i_1_n_0   | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[40][7]_i_1_n_0  | p_0_in           |                5 |              8 |         1.60 |
+|  Clk_IBUF_BUFG | Memory[44][7]_i_1_n_0  | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[50][7]_i_1_n_0  | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[54][7]_i_1_n_0  | p_0_in           |                5 |              8 |         1.60 |
+|  Clk_IBUF_BUFG | Memory[55][7]_i_1_n_0  | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[85][7]_i_1_n_0  | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[87][7]_i_1_n_0  | p_0_in           |                3 |              8 |         2.67 |
+|  Clk_IBUF_BUFG | Memory[89][7]_i_1_n_0  | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[8][7]_i_1_n_0   | p_0_in           |                3 |              8 |         2.67 |
+|  Clk_IBUF_BUFG | Memory[90][7]_i_1_n_0  | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[91][7]_i_1_n_0  | p_0_in           |                4 |              8 |         2.00 |
+|  Clk_IBUF_BUFG | Memory[98][7]_i_1_n_0  | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[99][7]_i_1_n_0  | p_0_in           |                8 |              8 |         1.00 |
+|  Clk_IBUF_BUFG | Memory[9][7]_i_1_n_0   | p_0_in           |                8 |              8 |         1.00 |
+|  Clk_IBUF_BUFG | Memory[212][7]_i_1_n_0 | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[33][7]_i_1_n_0  | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[41][7]_i_1_n_0  | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[42][7]_i_1_n_0  | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[43][7]_i_1_n_0  | p_0_in           |                5 |              8 |         1.60 |
+|  Clk_IBUF_BUFG | Memory[45][7]_i_1_n_0  | p_0_in           |                4 |              8 |         2.00 |
+|  Clk_IBUF_BUFG | Memory[100][7]_i_1_n_0 | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[152][7]_i_1_n_0 | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[153][7]_i_1_n_0 | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[155][7]_i_1_n_0 | p_0_in           |                4 |              8 |         2.00 |
+|  Clk_IBUF_BUFG | Memory[169][7]_i_1_n_0 | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[16][7]_i_1_n_0  | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[173][7]_i_1_n_0 | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[188][7]_i_1_n_0 | p_0_in           |                6 |              8 |         1.33 |
+|  Clk_IBUF_BUFG | Memory[191][7]_i_1_n_0 | p_0_in           |                7 |              8 |         1.14 |
+|  Clk_IBUF_BUFG | Memory[192][7]_i_1_n_0 | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[24][7]_i_1_n_0  | p_0_in           |                3 |              8 |         2.67 |
+|  Clk_IBUF_BUFG | Memory[213][7]_i_1_n_0 | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[217][7]_i_1_n_0 | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[218][7]_i_1_n_0 | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[251][7]_i_1_n_0 | p_0_in           |                3 |              8 |         2.67 |
+|  Clk_IBUF_BUFG | Memory[252][7]_i_1_n_0 | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[253][7]_i_1_n_0 | p_0_in           |                5 |              8 |         1.60 |
+|  Clk_IBUF_BUFG | Memory[254][7]_i_1_n_0 | p_0_in           |                4 |              8 |         2.00 |
+|  Clk_IBUF_BUFG | Memory[255][7]_i_2_n_0 | p_0_in           |                6 |              8 |         1.33 |
+|  Clk_IBUF_BUFG | Memory[25][7]_i_1_n_0  | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[26][7]_i_1_n_0  | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[104][7]_i_1_n_0 | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[105][7]_i_1_n_0 | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[150][7]_i_1_n_0 | p_0_in           |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG | Memory[151][7]_i_1_n_0 | p_0_in           |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG | Memory[154][7]_i_1_n_0 | p_0_in           |                1 |              8 |         8.00 |
++----------------+------------------------+------------------+------------------+----------------+--------------+
+
+

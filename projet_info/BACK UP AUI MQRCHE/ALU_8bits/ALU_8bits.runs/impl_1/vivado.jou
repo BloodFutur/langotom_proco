@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:04:56 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Thu Mar 21 11:00:15 2024
+# Process ID: 35326
+# Current directory: /home/rbonnet/Documents/4A/projet_info/ALU_8bits/ALU_8bits.runs/impl_1
+# Command line: vivado -log ALU_8bits.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source ALU_8bits.tcl -notrace
+# Log file: /home/rbonnet/Documents/4A/projet_info/ALU_8bits/ALU_8bits.runs/impl_1/ALU_8bits.vdi
+# Journal file: /home/rbonnet/Documents/4A/projet_info/ALU_8bits/ALU_8bits.runs/impl_1/vivado.jou
+# Running On: insa-20924, OS: Linux, CPU Frequency: 1217.993 MHz, CPU Physical cores: 6, Host memory: 16434 MB
+#-----------------------------------------------------------
+source ALU_8bits.tcl -notrace

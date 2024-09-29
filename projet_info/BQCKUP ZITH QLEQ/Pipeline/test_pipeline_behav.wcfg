@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="test_pipeline_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="test_pipeline" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="353.501 ns"></ZoomEndTime>
+      <Cursor1Time time="70.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="167"></NameColumnWidth>
+      <ValueColumnWidth column_width="125"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="73" />
+   <wvobject fp_name="divider78" type="divider">
+      <obj_property name="label">microProc</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_pipeline/Rst_test">
+      <obj_property name="ElementShortName">Rst_test</obj_property>
+      <obj_property name="ObjectShortName">Rst_test</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pipeline/QA_test">
+      <obj_property name="ElementShortName">QA_test[7:0]</obj_property>
+      <obj_property name="ObjectShortName">QA_test[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pipeline/QB_test">
+      <obj_property name="ElementShortName">QB_test[7:0]</obj_property>
+      <obj_property name="ObjectShortName">QB_test[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_pipeline/Clock">
+      <obj_property name="ElementShortName">Clock</obj_property>
+      <obj_property name="ObjectShortName">Clock</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_pipeline/Clock_period">
+      <obj_property name="ElementShortName">Clock_period</obj_property>
+      <obj_property name="ObjectShortName">Clock_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider14" type="divider">
+      <obj_property name="label">IP</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_pipeline/Test_microprocesseur/Instruction_Pointer/Clk">
+      <obj_property name="ElementShortName">Clk</obj_property>
+      <obj_property name="ObjectShortName">Clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_pipeline/Test_microprocesseur/Instruction_Pointer/Rst">
+      <obj_property name="ElementShortName">Rst</obj_property>
+      <obj_property name="ObjectShortName">Rst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_pipeline/Test_microprocesseur/Instruction_Pointer/Load">
+      <obj_property name="ElementShortName">Load</obj_property>
+      <obj_property name="ObjectShortName">Load</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_pipeline/Test_microprocesseur/Instruction_Pointer/Sens">
+      <obj_property name="ElementShortName">Sens</obj_property>
+      <obj_property name="ObjectShortName">Sens</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_pipeline/Test_microprocesseur/Instruction_Pointer/En">
+      <obj_property name="ElementShortName">En</obj_property>
+      <obj_property name="ObjectShortName">En</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pipeline/Test_microprocesseur/Instruction_Pointer/Din">
+      <obj_property name="ElementShortName">Din[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Din[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pipeline/Test_microprocesseur/Instruction_Pointer/Dout">
+      <obj_property name="ElementShortName">Dout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Dout[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pipeline/Test_microprocesseur/Instruction_Pointer/DTemp">
+      <obj_property name="ElementShortName">DTemp[7:0]</obj_property>
+      <obj_property name="ObjectShortName">DTemp[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider15" type="divider">
+      <obj_property name="label">IM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pipeline/Test_microprocesseur/Instruction_Memory/Address">
+      <obj_property name="ElementShortName">Address[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Address[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_pipeline/Test_microprocesseur/Instruction_Memory/Clk">
+      <obj_property name="ElementShortName">Clk</obj_property>
+      <obj_property name="ObjectShortName">Clk</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pipeline/Test_microprocesseur/Instruction_Memory/Output">
+      <obj_property name="ElementShortName">Output[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Output[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pipeline/Test_microprocesseur/Instruction_Memory/Instructions">
+      <obj_property name="ElementShortName">Instructions[0:255][31:0]</obj_property>
+      <obj_property name="ObjectShortName">Instructions[0:255][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider77" type="divider">
+      <obj_property name="label">Register Bench</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pipeline/Test_microprocesseur/Register_Bench/Areg">
+      <obj_property name="ElementShortName">Areg[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Areg[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pipeline/Test_microprocesseur/Register_Bench/Breg">
+      <obj_property name="ElementShortName">Breg[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Breg[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pipeline/Test_microprocesseur/Register_Bench/Wreg">
+      <obj_property name="ElementShortName">Wreg[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Wreg[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_pipeline/Test_microprocesseur/Register_Bench/W">
+      <obj_property name="ElementShortName">W</obj_property>
+      <obj_property name="ObjectShortName">W</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pipeline/Test_microprocesseur/Register_Bench/Data">
+      <obj_property name="ElementShortName">Data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Data[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_pipeline/Test_microprocesseur/Register_Bench/Rst">
+      <obj_property name="ElementShortName">Rst</obj_property>
+      <obj_property name="ObjectShortName">Rst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_pipeline/Test_microprocesseur/Register_Bench/Clk">
+      <obj_property name="ElementShortName">Clk</obj_property>
+      <obj_property name="ObjectShortName">Clk</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pipeline/Test_microprocesseur/Register_Bench/QA">
+      <obj_property name="ElementShortName">QA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">QA[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pipeline/Test_microprocesseur/Register_Bench/QB">
+      <obj_property name="ElementShortName">QB[7:0]</obj_property>
+      <obj_property name="ObjectShortName">QB[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pipeline/Test_microprocesseur/Register_Bench/Tab_temp">
+      <obj_property name="ElementShortName">Tab_temp[15:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">Tab_temp[15:0][7:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="divider1662" type="divider">
+      <obj_property name="label">ALU</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#808000</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pipeline/Test_microprocesseur/Aluminum/A">
+      <obj_property name="ElementShortName">A[7:0]</obj_property>
+      <obj_property name="ObjectShortName">A[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pipeline/Test_microprocesseur/Aluminum/B">
+      <obj_property name="ElementShortName">B[7:0]</obj_property>
+      <obj_property name="ObjectShortName">B[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pipeline/Test_microprocesseur/Aluminum/Ctrl_Alu">
+      <obj_property name="ElementShortName">Ctrl_Alu[2:0]</obj_property>
+      <obj_property name="ObjectShortName">Ctrl_Alu[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pipeline/Test_microprocesseur/Aluminum/S">
+      <obj_property name="ElementShortName">S[7:0]</obj_property>
+      <obj_property name="ObjectShortName">S[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_pipeline/Test_microprocesseur/Aluminum/C">
+      <obj_property name="ElementShortName">C</obj_property>
+      <obj_property name="ObjectShortName">C</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_pipeline/Test_microprocesseur/Aluminum/O">
+      <obj_property name="ElementShortName">O</obj_property>
+      <obj_property name="ObjectShortName">O</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_pipeline/Test_microprocesseur/Aluminum/N">
+      <obj_property name="ElementShortName">N</obj_property>
+      <obj_property name="ObjectShortName">N</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_pipeline/Test_microprocesseur/Aluminum/Z">
+      <obj_property name="ElementShortName">Z</obj_property>
+      <obj_property name="ObjectShortName">Z</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pipeline/Test_microprocesseur/Aluminum/Stemp">
+      <obj_property name="ElementShortName">Stemp[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Stemp[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider194" type="divider">
+      <obj_property name="label">MEMORY</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pipeline/Test_microprocesseur/Data_Memory/Address">
+      <obj_property name="ElementShortName">Address[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Address[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pipeline/Test_microprocesseur/Data_Memory/Input">
+      <obj_property name="ElementShortName">Input[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Input[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_pipeline/Test_microprocesseur/Data_Memory/Read">
+      <obj_property name="ElementShortName">Read</obj_property>
+      <obj_property name="ObjectShortName">Read</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_pipeline/Test_microprocesseur/Data_Memory/Rst">
+      <obj_property name="ElementShortName">Rst</obj_property>
+      <obj_property name="ObjectShortName">Rst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_pipeline/Test_microprocesseur/Data_Memory/Clk">
+      <obj_property name="ElementShortName">Clk</obj_property>
+      <obj_property name="ObjectShortName">Clk</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pipeline/Test_microprocesseur/Data_Memory/Output">
+      <obj_property name="ElementShortName">Output[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Output[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pipeline/Test_microprocesseur/Data_Memory/Memory">
+      <obj_property name="ElementShortName">Memory[255:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">Memory[255:0][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider1114" type="divider">
+      <obj_property name="label">TESTS</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#F0E68C</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pipeline/Test_microprocesseur/QA_tmp">
+      <obj_property name="ElementShortName">QA_tmp[7:0]</obj_property>
+      <obj_property name="ObjectShortName">QA_tmp[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pipeline/Test_microprocesseur/QB_tmp">
+      <obj_property name="ElementShortName">QB_tmp[7:0]</obj_property>
+      <obj_property name="ObjectShortName">QB_tmp[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pipeline/Test_microprocesseur/OP_LI_DI">
+      <obj_property name="ElementShortName">OP_LI_DI[7:0]</obj_property>
+      <obj_property name="ObjectShortName">OP_LI_DI[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pipeline/Test_microprocesseur/A_LI_DI">
+      <obj_property name="ElementShortName">A_LI_DI[7:0]</obj_property>
+      <obj_property name="ObjectShortName">A_LI_DI[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pipeline/Test_microprocesseur/B_LI_DI">
+      <obj_property name="ElementShortName">B_LI_DI[7:0]</obj_property>
+      <obj_property name="ObjectShortName">B_LI_DI[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pipeline/Test_microprocesseur/C_LI_DI">
+      <obj_property name="ElementShortName">C_LI_DI[7:0]</obj_property>
+      <obj_property name="ObjectShortName">C_LI_DI[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pipeline/Test_microprocesseur/OP_DI_EX">
+      <obj_property name="ElementShortName">OP_DI_EX[7:0]</obj_property>
+      <obj_property name="ObjectShortName">OP_DI_EX[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pipeline/Test_microprocesseur/B_DI_EX">
+      <obj_property name="ElementShortName">B_DI_EX[7:0]</obj_property>
+      <obj_property name="ObjectShortName">B_DI_EX[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pipeline/Test_microprocesseur/B_EX_Mem">
+      <obj_property name="ElementShortName">B_EX_Mem[7:0]</obj_property>
+      <obj_property name="ObjectShortName">B_EX_Mem[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pipeline/Test_microprocesseur/B_Mem_Re">
+      <obj_property name="ElementShortName">B_Mem_Re[7:0]</obj_property>
+      <obj_property name="ObjectShortName">B_Mem_Re[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pipeline/Test_microprocesseur/OP_EX_Mem">
+      <obj_property name="ElementShortName">OP_EX_Mem[7:0]</obj_property>
+      <obj_property name="ObjectShortName">OP_EX_Mem[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pipeline/Test_microprocesseur/C_DI_EX">
+      <obj_property name="ElementShortName">C_DI_EX[7:0]</obj_property>
+      <obj_property name="ObjectShortName">C_DI_EX[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider230" type="divider">
+      <obj_property name="label">DETECTION ALEA</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_pipeline/Test_microprocesseur/Alea_Detection_Unit/R_LI_DI_B">
+      <obj_property name="ElementShortName">R_LI_DI_B</obj_property>
+      <obj_property name="ObjectShortName">R_LI_DI_B</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_pipeline/Test_microprocesseur/Alea_Detection_Unit/R_LI_DI_C">
+      <obj_property name="ElementShortName">R_LI_DI_C</obj_property>
+      <obj_property name="ObjectShortName">R_LI_DI_C</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pipeline/Test_microprocesseur/Alea_Detection_Unit/A_LI_DI">
+      <obj_property name="ElementShortName">A_LI_DI[7:0]</obj_property>
+      <obj_property name="ObjectShortName">A_LI_DI[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pipeline/Test_microprocesseur/Alea_Detection_Unit/B_LI_DI">
+      <obj_property name="ElementShortName">B_LI_DI[7:0]</obj_property>
+      <obj_property name="ObjectShortName">B_LI_DI[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pipeline/Test_microprocesseur/Alea_Detection_Unit/C_LI_DI">
+      <obj_property name="ElementShortName">C_LI_DI[7:0]</obj_property>
+      <obj_property name="ObjectShortName">C_LI_DI[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pipeline/Test_microprocesseur/Alea_Detection_Unit/A_DI_EX">
+      <obj_property name="ElementShortName">A_DI_EX[7:0]</obj_property>
+      <obj_property name="ObjectShortName">A_DI_EX[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pipeline/Test_microprocesseur/Alea_Detection_Unit/A_EX_MEM">
+      <obj_property name="ElementShortName">A_EX_MEM[7:0]</obj_property>
+      <obj_property name="ObjectShortName">A_EX_MEM[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_pipeline/Test_microprocesseur/Alea_Detection_Unit/W_DI_EX">
+      <obj_property name="ElementShortName">W_DI_EX</obj_property>
+      <obj_property name="ObjectShortName">W_DI_EX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_pipeline/Test_microprocesseur/Alea_Detection_Unit/W_EX_MEM">
+      <obj_property name="ElementShortName">W_EX_MEM</obj_property>
+      <obj_property name="ObjectShortName">W_EX_MEM</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_pipeline/Test_microprocesseur/Alea_Detection_Unit/Output">
+      <obj_property name="ElementShortName">Output</obj_property>
+      <obj_property name="ObjectShortName">Output</obj_property>
+   </wvobject>
+</wave_config>

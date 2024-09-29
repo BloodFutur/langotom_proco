@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:04:56 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Sun Mar  3 15:09:04 2024
+# Process ID: 110549
+# Current directory: /home/rbonnet/Documents/4A/projet_info/Compteur_16bits/Compteur_16bits.runs/synth_1
+# Command line: vivado -log Compteurs_16bits.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Compteurs_16bits.tcl
+# Log file: /home/rbonnet/Documents/4A/projet_info/Compteur_16bits/Compteur_16bits.runs/synth_1/Compteurs_16bits.vds
+# Journal file: /home/rbonnet/Documents/4A/projet_info/Compteur_16bits/Compteur_16bits.runs/synth_1/vivado.jou
+# Running On: srv-tp05, OS: Linux, CPU Frequency: 2271.494 MHz, CPU Physical cores: 32, Host memory: 134750 MB
+#-----------------------------------------------------------
+source Compteurs_16bits.tcl -notrace

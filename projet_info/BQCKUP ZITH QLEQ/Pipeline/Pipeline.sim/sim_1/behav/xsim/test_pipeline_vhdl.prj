@@ -1,0 +1,13 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Pipeline.srcs/sources_1/new/ALU_8bits.vhd" \
+"../../../../Pipeline.srcs/sources_1/new/Alea_Detection.vhd" \
+"../../../../Pipeline.srcs/sources_1/new/Compteur_8bits.vhd" \
+"../../../../Pipeline.srcs/sources_1/new/banc_de_registres.vhd" \
+"../../../../Pipeline.srcs/sources_1/new/memoire_de_donnees.vhd" \
+"../../../../Pipeline.srcs/sources_1/new/memoire_des_instructions.vhd" \
+"../../../../Pipeline.srcs/sources_1/new/pipeline.vhd" \
+"../../../../Pipeline.srcs/sim_1/new/test_pipeline.vhd" \
+
+# Do not sort compile order
+nosort
